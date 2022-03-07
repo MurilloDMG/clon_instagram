@@ -1,0 +1,184 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+@media screen and (min-width: 640px) and (max-width: 2280px) {
+html{
+    padding-left: 580px;
+    
+}
+}
+
+@media screen and (min-width: 780px) and (max-width: 2280px) {
+    html{
+        padding-left: 580px;
+        
+    }
+    }
+    
+
+
+html,body,.header,.nav{
+    width: 400px;
+   
+    
+}
+
+
+    
+.header{
+    position: fixed;
+    padding-bottom: 135px;
+    width: 100%;
+    padding-top: 20px ;
+    padding-right: 20px;
+    background-color: white;
+    height: 50px;
+}
+.navInsta{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.iconologo{
+    max-width: 100%;
+    width: 190px;
+    height: 50px; 
+}
+
+.iconos{
+    max-width: 100%;
+    width: 35px;
+    height: 35px;
+    
+    
+}
+
+.nav{
+    display: flex;
+   
+}
+
+/*HISTORIAS*/
+.radiusHistory{
+    max-width: 100%;
+    width: 75px;
+    height: 75px;
+    border-radius: 50% ;
+}
+.radiusimagen{
+    max-width: 100%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% ;
+}
+
+.add{
+    border-radius: 50%;
+    margin-left: -28;
+}
+
+.historiasAmigos{
+    
+    
+}
+
+.historias{
+    padding-left: 20px;
+    padding-top: 80px;
+    position: fixed;
+    display: flex;
+
+}
+
+.amig{
+    border: 5px solid rgb(231, 11, 132);
+    padding: 4px;
+}
+
+.nombres{
+    padding-left: 20px;
+    padding-top: 180px ;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    gap: 38px;
+    
+}
+
+.fotos{
+    padding-top: 250px;
+}
+
+.nombreimagen{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+   justify-content: space-between;
+}
+.nom{
+    display: flex;
+    gap: 15px;
+    text-align: center;
+}
+
+
+.foto{
+    width: 100%;
+
+}
+
+.iconimg{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
+}
+.iconizq{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.txt{
+    padding:10px ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+span{
+    font-weight: bold;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.comentario{
+    padding-left: 8px;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+input{
+    border: none;
+}
+
+.tiempo{
+    padding-left: 8px;
+}
+
+h4{
+    color: darkgrey;
+}
+h6{
+    color: darkgrey;
+}
+
+a{
+    cursor: pointer;
+}
